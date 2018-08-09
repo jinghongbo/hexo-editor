@@ -11,4 +11,4 @@ password: imyouradmin
 base_dir: ./docs
 
 # port
-port: 2048
+port: 80
