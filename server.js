@@ -26,6 +26,7 @@ const sync = require('./models/sync');
 if (!config.port) {
   config.port = 2048;
 }
+config.port = process.env.PORT || config.port;
 
 server.listen(config.port);
 
